@@ -1,0 +1,157 @@
+*{
+  padding: 0;
+  margin: 0;
+  color: white;
+  box-sizing: border-box;
+}
+body{
+  background: #040720;
+  display: flex;
+}
+.menu{
+  background: #413839;
+  width: 80px;
+  
+  position: relative;
+  overflow: hidden;
+  flex-grow: 0;
+}
+.menu:hover{
+  width: 250px;
+}
+.site img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0;
+}
+.profile{
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  
+}
+.site{
+  background:  Gray;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  transition: .5s;
+}
+.site a{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  text-decoration: none;
+}
+.site a i, .end a i{
+  font-size: 20px;
+}
+.site a p, .end a p{
+  font-size: 18px;
+}
+.end a{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  text-decoration: none;
+}
+.site:hover, .end:hover{
+  background: #A9A9A9;
+}
+
+ .end{
+  position: absolute;
+  background: red;
+   width: 75%; 
+  padding: 10px;
+  margin: 10px;
+  bottom: 0;
+  border-radius: 10px;
+  
+  
+}
+ .menu:hover .end{
+  width:90%;
+  }   
+
+
+  .content{
+    width: 100%;
+  } 
+.title-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: green;
+    margin-top: 5px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 10px 5px;
+    padding: 0 10px;
+  }
+.title-info p, i{
+  font-size: 20px;
+  
+}
+.
+.title-info p{
+color: black;
+}
+.table{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.info{
+  background: #00A9FF;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  flex-grow: 1;
+}
+
+.info i{
+  font-size: 30px;
+}
+.info .user{
+  font-size: 20px;
+}
+.product{
+  
+  width: 100%;
+  text-align: center;
+  border-spacing: 10px;
+}
+ td{
+  background: rgb(102, 15, 180);
+  padding:6px;
+}
+th{
+  background: gray;
+  padding: 15px;
+}
+th, td{
+  border: 1.5px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.price, .count{
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  width: 100px; 
+} 
+.price{
+  background: #00A9FF;
+}
+.count{
+  background: green;
+  
+}
